@@ -1,0 +1,16 @@
+Preduvjeti: Ova aplikacija provjereno radi s Python 3.6 i koristi PostgreSQL.
+1. klonirajte github repo:                  git clone https://github.com/zsucicdl/restapi_footballers.git
+2. stvorite bazu podataka:                  createdb footballers
+3. pozicionirajte se u direktorij projekta: cd restapi_footballers
+4. stvorite virtualnu okolinu
+5. instalirajte potrebne biblioteke:        pip install -r requirements.txt
+5. inicijalizirajte bazu podataka:          python3 setup.py
+6. postavite export putanju za Flask:       export FLASK_APP=app.py
+7. pokrenite aplikaciju:                    flask run
+
+-u projektu i na mailu je Postman kolekcija
+-skripta s funkcionalnostima je evaluation.py, zbog urednosti se CRUD metode
+koriste samo kroz Postman kolekciju
+
+Aplikacija je dostupna na url-u http://127.0.0.1:5000
+(sva interakcija vidljiva je u terminalu)
